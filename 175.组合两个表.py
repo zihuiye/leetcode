@@ -1,0 +1,1 @@
+select FirstName, LastName, City, State from Person as p, Address as a where p.PersonId = a.PersonId 
